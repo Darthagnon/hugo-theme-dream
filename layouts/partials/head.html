@@ -1,5 +1,6 @@
 {{ if isset .Site.Params "favicon" }}
 <link href="{{ .Site.Params.favicon }}" rel="shortcut icon" type="image/x-icon" />
+<link rel="apple-touch-icon" href="{{ . }}" type="image/x-icon" />
 {{ end }}
 
 <!-- Site permissions policy: Degoogle: Opt out of Google FLoC, src: https://github.dihe.moe/Donearm/donearm.github.com/commit/31892e66c27c2b0b251185ef5c38b9762703cf36 -->
