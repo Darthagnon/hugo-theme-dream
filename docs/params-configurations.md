@@ -30,6 +30,7 @@ unsafe = true
   # roundAvatar = true
   headerTitle = "g1eny0ung 的博客"
   motto = "与其感慨路难行，不如马上出发。"
+  # hideArticleTags = "true"
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
@@ -201,6 +202,9 @@ Dream was originally intended to be used only as a blog theme. But with continuo
 ### motto = "与其感慨路难行，不如马上出发。"
 
 Used in Header.
+
+### hideArticleTags = "true"
+Articles now have their Categories and applied Tags (if present in the front matter) displayed below the Author/Date/LastMod/etc. area. Uncomment this param to hide them (BUG: currently, setting it to "false" does nothing; comment param instead).
 
 ### maxTags = 5
 
