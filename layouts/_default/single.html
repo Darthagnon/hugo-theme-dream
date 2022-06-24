@@ -175,18 +175,12 @@
 
 <!--Hugo doesn't like SRI for highlightjs: integrity="sha256-+drbZCPWcVz0Wo0d8P8eD49H5xzTu68R7h7W5trZRk8=" crossorigin="anonymous"-->
 
-{{ if .Site.Params.highlightjsExtraLanguages }}
-{{ if .Site.Params.CDNJS }}
-  {{ range .Site.Params.highlightjsExtraLanguages }}
-    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/{{ . }}.min.js"></script>
-  {{ end }}
-{{- else -}}
-  {{ range .Site.Params.highlightjsExtraLanguages }}
-    <script src="{{ "/js/3p/hljs/{{ . }}.min.js" | relURL }}" /></script>
-  {{ end }}
+<!--{{ if .Site.Params.highlightjsExtraLanguages }}
+{{ range .Site.Params.highlightjsExtraLanguages }}-->
+<!--<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/{{ . }}.min.js"></script>-->
+<!--<script src="{{ "/js/3p/hljs/{{ . }}.min.js" | relURL }}" />
 {{ end }}
-
-{{ end }}
+{{ end }}-->
 
 {{ partial "highlight.html" . }}
 {{ end }}
