@@ -13,6 +13,12 @@
     {{ range .Site.Params.Advanced.customCSS }}
     <link rel="stylesheet" href="{{ . | relURL }}" />
     {{ end }}
+    <!-- Workaround bug in github-markdown.css, images in body do not display transparency properly. CSS is here because it refuses to work anywhere else -->
+    <style>
+      .markdown-body img {
+      background-color: initial !important;
+    }
+    </style>
   </head>
 
   <body class="default">
