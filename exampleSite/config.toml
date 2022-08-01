@@ -70,6 +70,8 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # codepen = ""
 
   siteStartYear = 2016
+  # Required for "Site last updated" footer
+  # commit = "https://github.com/<username>/<siterepo.github.io>/commits/"
 
   favicon = "/favicons/favicon.ico"
 

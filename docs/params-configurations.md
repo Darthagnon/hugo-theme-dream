@@ -58,6 +58,8 @@ unsafe = true
   codepen = "g1eny0ung"
 
   siteStartYear = 2016
+  # Required for "Site last updated" footer
+  # commit = "https://github.com/<username>/<siterepo.github.io>/commits/"
 
   favicon = "/favicon.ico"
 
@@ -283,6 +285,9 @@ Or add by yourself. Follow the template in `layouts/partials/socials.html`.
 ### siteStartYear = 2016
 
 Set your site's start year, then the header will show as **siteStartYear - currentYear (eg: 2016 - 2020)**.
+
+### commit = https://github.com/<username>/<siterepo.github.io>/commits/
+Provide a buildlog (e.g. GitHub commits page for your site's repo, like `https://github.com/g1eny0ung/hugo-theme-dream/commits/`), and the Site Last Updated date will be displayed in the footer with a link to your buildlog. Known Issue: it's not 100% accurate, as it does not draw from the date of your latest article.
 
 ### favicon = "/favicon.ico"
 

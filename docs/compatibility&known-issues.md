@@ -2,6 +2,7 @@
 
 ## Known Issues & Limitations
 - Lots of stuff is broken or performs poorly in Firefox (and derivatives)
+- siteParam `commit` does not display a completely accurate "Site last updated" date; it's possible to have articles published that are newer than the site's Last Update. Maybe the date is pulled from the last update of the main site index.html which may be updated at a different rate to articles?
 - ~~About/Flip page loads inline html images from incorrect paths (example: visit any page other than Home and then click About/Flip)~~ You need to be careful to use a leading slash `/img/pepe.jpg` so as to load relative to the site root, rather than relative to the page root `img/pepe.jpg`.
 - Internet Explorer 11 weird laggy/zoom scrolling (Win10)
 - Animated GIFs render properly with transparencies on the homepage, but in articles, have a white border in Dark Mode - this seems due to `github-markdown.min@4.0.0.css`
