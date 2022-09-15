@@ -62,7 +62,7 @@
   {{ if (fileExists "data/socials.toml") }}
   {{ $iconSize := .IconSize }}
   {{ range .Site.Data.socials.socials }}
-    <a class="item" href="{{ .href }}" target="{{ .target }}">
+    <a class="item" href="{{ .href | safeURL }}" target="{{ .target }}">
       <i class="{{ $iconSize }} {{ .icon }} icon" title="{{ .title }}"></i>
     </a>
   {{ end }}
