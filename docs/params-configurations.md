@@ -75,6 +75,9 @@ unsafe = true
   # search
   enableSearch = true
   # topTags = false
+  # textButtons = true
+  # textButtonsMini = false
+  textSocials = true
 
   # Error 404 Not Found page text
   error404Header = "Oops...You are lost in dream."
@@ -326,6 +329,9 @@ Enable text next on navbar buttons. TODO: Not yet responsive, so will overflow. 
 
 ### textButtonsMini = true
 Enable text next to small Archive, Categories, Tags buttons; use only when `topTags = false`.
+
+### textSocials = true
+Add text title next to social network icon in "Socials" section on "About" page. If false, just display icon.
 
 ###  404_header = "Oops...You are lost in dream."
 Error 404 Page Not Found header text.
