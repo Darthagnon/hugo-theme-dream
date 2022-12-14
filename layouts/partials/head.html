@@ -6,8 +6,8 @@
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
 <!-- IndieAuth, see https://indieweb.org/, https://indieauth.com/ -->
-{{ if isset .Site.Params "IndieAuth" }}
-<link rel="authorization_endpoint" href="{{ .Context.Site.IndieAuth }}">
+{{ if isset .Site.Params "indieauth" }}
+<link rel="authorization_endpoint" href="{{ .Site.Params.indieauth }}">
 {{ end }}
 
 <!-- Progressive Web App (PWA) -->
