@@ -3,7 +3,7 @@ socials = [
   { href = "https://facebook.com/joebloggs", target="_blank", icon = "facebook", title = "Facebook" },
   { href = "https://messenger.com/joebloggs", target="_blank", icon = "comment", title = "Facebook Messenger" },
   { href = "https://vk.com/joebloggs", target="_blank", icon = "vk", title = "VKontakte" },
-  { href = "https://mastodon.social/@JoeBloggs", target="_blank", icon = "hashtag", title = "Mastodon" },
+  { href = "https://mastodon.social/@JoeBloggs", target="_blank", icon = "icon-mastodon", title = "Mastodon" },
   { href = "https://old.reddit.com/r/joebloggssubreddit/", target="_blank", icon = "android", title = "SubReddit" },
   { href = "https://www.reddit.com/u/joebloggs/", target="_blank", icon = "android", title = "Reddit User Account" },
   { href = "https://www.youtube.com/channel/UCuAXFkgsw1L7xaCfnd5JJOw", target="_blank", icon = "youtube", title = "YouTube" }, # Recommended to use channel hash (case-sensitive, unchangeable) rather than username (changeable)
