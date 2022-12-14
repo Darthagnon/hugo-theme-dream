@@ -10,9 +10,6 @@ theme = "hugo-theme-dream"
 
 # disqusShortname = ""
 
-# Add IndieAuth endpoint here, as per https://indieweb.org/IndieAuth#How_to
-# IndieAuth = "https://indieauth.com/auth"
-
 # enableRobotsTXT = true
 
 # recommended for GitHub pages
@@ -71,6 +68,9 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # github = ""
   # stackoverflow = ""
   # codepen = ""
+  
+  # Add IndieAuth endpoint here, as per https://indieweb.org/IndieAuth#How_to
+  # IndieAuth = "https://indieauth.com/auth"
 
   siteStartYear = 2016
   # Required for "Site last updated" footer

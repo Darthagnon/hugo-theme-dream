@@ -6,7 +6,7 @@
 <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
 
 <!-- IndieAuth, see https://indieweb.org/, https://indieauth.com/ -->
-{{ if .Context.Site.IndieAuth }}
+{{ if isset .Site.Params "IndieAuth" }}
 <link rel="authorization_endpoint" href="{{ .Context.Site.IndieAuth }}">
 {{ end }}
 
