@@ -5,6 +5,7 @@
 {{ else }}
 <nav class="ui secondary menu dream-menu dream-nav">
 {{ end }}
+  {{ if not .Site.Params.disableFlip }}
   <a class="item dream-flip-toggle" title="{{ i18n "flip" }}" alt="{{ i18n "flip" }}">
     <i class="large link question circle icon"></i>
     {{ if .Site.Params.textButtons }}
@@ -13,6 +14,7 @@
 	</div>
     {{ end }}
   </a>
+  {{ end }}
   <a class="item" href="{{ .Site.BaseURL }}" title="{{ i18n "home" }}" alt="{{ i18n "home" }}">
     <i class="large link home icon"></i>
       {{ if .Site.Params.textButtons }}

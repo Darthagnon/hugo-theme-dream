@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog v1.0.0](http://keepachangelog.com/en/1.
 
 ## Version History Notes
 
-### The next version is out
+### The next version 2.0 is out
 
 > If you still want to use the old version, you can check out the branch to `release-1.6`.
 
@@ -82,6 +82,21 @@ If you have other problems, you can also ask in the [issues](https://github.com/
 - [WIP] Start implementing [Photoswipe](https://photoswipe.com/) via [Hugo Easy Gallery](https://github.com/liwenyip/hugo-easy-gallery/) in an [unofficial fork](https://github.com/Darthagnon/hugo-easy-gallery) (jQuery-free version!) (**v3.0.0?**)
 - [WIP] update i18n with missing words for the `textButtons`
 - [WIP] Pretty RSS/tag XML that is human-readable via XSL styling; still needs adapting, site avatar, etc. ([Making RSS Pretty, sburke@inerglacial.com](https://interglacial.com/~sburke/stuff/pretty_rss.html), [How to style RSS feed with XSL, Hsiaoming@lepture.com](https://lepture.com/en/2019/rss-style-with-xsl), [Hugo RSS templates](https://gohugo.io/templates/rss/), [Default Hugo RSS](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml))
+
+## [2.0.0-beta.1] - 2021.05.06
+
+- Hide themeSwitch when no dark params
+- Construct $termLink with relLangURL (#173)
+- Add param `reversePostAndAside`
+- Keep the original taxonomy name
+- Consider motto as safeHTML (#185)
+- Add single page param `nolastmod`
+- Add `experimental.jsDate` param
+- Add param `maxTags`
+- Add param `shareInAside`
+- Italian translation (#191)
+- Remove `blogAlias` in i18n
+
 ## [2.0.0-beta] - 2021.01.31
 
 - New `header` component
@@ -93,7 +108,7 @@ If you have other problems, you can also ask in the [issues](https://github.com/
 
 ## [1.6.0] - 2021.01.30
 
-- Process term name with humanize | title
+- Process term name with `humanize | title`
 - Support TOC
 - Add `avatar` post param
 - Add `defaultDark` param
@@ -135,9 +150,9 @@ If you have other problems, you can also ask in the [issues](https://github.com/
 
 ## [1.2.0] - 2020.07.03
 
-- Fix disqus identifier's problem
+- Fix Disqus identifier's problem
 - Fix table display in dark mode (#127)
-- Now the summary card's date can be localized, currently dream already support:
+- Now the summary cards' date can be localized, currently dream already supports:
   - zh
   - es
 
