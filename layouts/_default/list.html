@@ -8,6 +8,20 @@
 
 {{ partial "header.html" . }}
 
+{{/* BGN: title and content section in list */}}
+<div class="ui relaxed centered grid dream-grid dream-grid-single" style="position: relative; padding-bottom: 140px; {{ if .Site.Params.reversePostAndAside }}flex-direction: row-reverse;{{ end }}">
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single">
+    <section class="h-entry ui segment" data-clarity-region="article">
+      <header>
+        <h1 class="p-name ui large header">{{- .Title -}}</h1>
+      </header>
+      <article class="e-content main">
+        {{ .Content | emojify }}
+      </article>
+    </section>
+  </div>
+</div>
+{{/* END: title and content section in list */}}
 <div class="ui relaxed grid dream-grid">
   {{ $paginator := .Paginate .Pages }}
   {{ range $paginator.Pages }}
