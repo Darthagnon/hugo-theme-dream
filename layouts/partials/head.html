@@ -52,6 +52,18 @@
   {{- else -}}
     <link rel="stylesheet" href="{{ "/css/3p/OverlayScrollbars.min@1.13.0.css" | relURL }}" />
   {{ end }}
+{{- else -}}  
+
+<style>
+.parallax {
+  /* Create the parallax scrolling effect, https://www.w3schools.com/howto/howto_css_parallax.asp */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
 {{ end }}
 {{ if .Site.Params.CDNJS }}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" integrity="sha256-1OR6V77ZEwFz6LcdRjvwt/FYAfQk/VGKTpHwmvAFHsk=" crossorigin="anonymous">
