@@ -28,6 +28,7 @@ unsafe = true
   description = "g1eny0ung 的生活记录～"
   avatar = "/me/yy.jpg"
   # roundAvatar = true
+  # sizeAvatar = "medium" # values: tiny, small (default), medium, large, huge
   headerTitle = "g1eny0ung 的博客"
   motto = "与其感慨路难行，不如马上出发。"
   # hideArticleTags = "true"
@@ -197,6 +198,10 @@ Used in Header.
 ### roundAvatar = true
 
 Choose between rounded avatar (best for profile pictures) or unset (best for custom brand logos)
+
+### sizeAvatar = "medium"
+
+Change the size of the site avatar logo - tiny, small (default), medium, large, huge are all valid options.
 
 ### headerTitle = "g1eny0ung 的博客"
 

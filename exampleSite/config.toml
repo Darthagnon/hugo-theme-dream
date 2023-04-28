@@ -39,6 +39,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   # description = ""
   avatar = "/img/avatar.jpeg"
   # roundAvatar = true
+  # sizeAvatar = "medium" # values: tiny, small (default), medium, large, huge
   headerTitle = "Hugo Theme Dream"
   motto = "Motto"
   # hideArticleTags = "true"
