@@ -33,6 +33,7 @@ unsafe = true
   motto = "与其感慨路难行，不如马上出发。"
   # hideArticleTags = "true"
   # maxTags = 5
+  # simple = "false" # hide tags, categories, archive EVERYWHERE
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
@@ -219,6 +220,9 @@ Articles now have their Categories and applied Tags (if present in the front mat
 ### maxTags = 5
 
 Limit the number of labels displayed visually. The hidden tags will be displayed in the form of an [Accordion](https://semantic-ui.com/modules/accordion.html).
+
+### simple = "false" 
+Uncomment to hide tags, categories, archive EVERYWHERE - this is for a simple site aesthetic, unsuitable for blogs.
 
 ### categoriesLimitInHeader = 6
 

@@ -20,7 +20,10 @@ publishDir = 'docs'
 unsafe = true 
 
 # ignore stupid error
-ignoreErrors = ["error-missing-instagram-accesstoken"]
+ignoreErrors = ["error-missing-instagram-accesstoken", "error-remote-getjson", "error-disable-taxonomy"]
+
+# (optional) disable tags and categories for a simple website
+# disableKinds = ["taxonomy", "term"]
 
 [params]
   background = "#f7f7f7"
@@ -44,6 +47,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
   motto = "Motto"
   # hideArticleTags = "true"
   # maxTags = 5
+  # simple = "false" # hide tags, categories, archive EVERYWHERE
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 

@@ -43,6 +43,8 @@
     {{ end }}
   </a>
   {{ end }}
+
+{{ if not .Site.Params.simple }}  
   {{ if .Site.Params.topTags }}
       {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
       <a class="item" href="{{ "posts" | relLangURL }}">
@@ -71,6 +73,7 @@
         {{ end }}
       </a>
   {{ end }}
+{{ end }}
   {{ if .Site.Params.RSSheader }}
   <a class="item" href="{{ "index.xml" | relLangURL }}" title="{{ i18n "rss" }}" alt="{{ i18n "rss" }}">
     <i class="large link rss icon"></i>
