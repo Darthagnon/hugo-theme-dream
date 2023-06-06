@@ -47,7 +47,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken", "error-remote-getjson", "
   motto = "Motto"
   # hideArticleTags = "true"
   # maxTags = 5
-  # simple = "false" # hide tags, categories, archive EVERYWHERE
+  # simple = false # hide tags, categories, archive EVERYWHERE
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
